@@ -1,0 +1,24 @@
+# NovelInk AI Server — Variables d'environnement
+# Copier ce fichier en .env et remplir les clés
+# Sur Render : ajouter chaque variable dans Environment > Add Environment Variable
+
+# ── Anthropic (Claude) ──────────────────────────────────────
+ANTHROPIC_API_KEY=sk-ant-...
+
+# ── OpenAI (GPT-4) ──────────────────────────────────────────
+OPENAI_API_KEY=sk-...
+
+# ── Google (Gemini) ─────────────────────────────────────────
+GEMINI_API_KEY=AIza...
+
+# ── Mistral ─────────────────────────────────────────────────
+MISTRAL_API_KEY=...
+
+# ── xAI (Grok) ──────────────────────────────────────────────
+GROK_API_KEY=xai-...
+
+# ── DeepSeek ────────────────────────────────────────────────
+DEEPSEEK_API_KEY=sk-...
+
+# ── Port (Render le gère automatiquement) ───────────────────
+PORT=3000
